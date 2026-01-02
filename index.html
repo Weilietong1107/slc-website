@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>申演文化 - 演出创意工作室</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 固定导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#home">
+                    <img src="logo/LOGO-EN.png" alt="申演文化" class="logo-image">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link"><span class="nav-cn">我们</span><span class="nav-en">About</span></a></li>
+                <li><a href="#portfolio" class="nav-link"><span class="nav-cn">创作</span><span class="nav-en">Works</span></a></li>
+                <li><a href="#team" class="nav-link"><span class="nav-cn">艺术家</span><span class="nav-en">Artist</span></a></li>
+                <li><a href="#collaborators" class="nav-link"><span class="nav-cn">共创</span><span class="nav-en">Co-Creation</span></a></li>
+                <li><a href="#gallery" class="nav-link"><span class="nav-cn">视觉</span><span class="nav-en">Visuals</span></a></li>
+                <li><a href="#contact" class="nav-link"><span class="nav-cn">联系</span><span class="nav-en">Contact</span></a></li>
+            </ul>
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="zh">CN</button>
+                <span class="lang-divider">/</span>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主页/首屏 -->
+    <section id="home" class="section hero">
+        <div class="hero-content">
+            <div class="hero-logo">
+                <img src="logo/SLC-Logo-CN+EN.png" alt="申演文化" class="hero-logo-image">
+            </div>
+            <p class="hero-subtitle" data-i18n="heroSubtitle">万象由此而生</p>
+            <div class="scroll-indicator">
+                <span data-i18n="scrollIndicator">向下滚动</span>
+                <div class="arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="text-content about-content">
+                    <div class="about-text about-cn">
+                        <h3 class="about-title" data-i18n="aboutTitle">我们是申演文化</h3>
+                        <p data-i18n="aboutText1">
+                            上海，是我们出发的地方。在这座剧场与塔吊并存、街头与舞台无界的城市，我们相信每一场演出，都是一次与世界的连接。
+                        </p>
+                        <p data-i18n="aboutText2">
+                            我们从演出策划与系统执行出发，<br>
+                            深入舞台美术与空间构建，<br>
+                            延展至视觉艺术与沉浸创意的边界。
+                        </p>
+                        <p data-i18n="aboutText3">
+                            申演，不止于舞台艺术。<br>
+                            我们参与的，是整个"现场"生态的设计——<br>
+                            一段经历、一种观看方式，一次人与时空关系的重构。
+                        </p>
+                        <p data-i18n="aboutText4">
+                            从一方舞台，到整座城市，<br>
+                            从一次演出，到一场文化记忆的生成，<br>
+                            我们始终走在激活现场的路上。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 我们的创作观 -->
+    <section id="philosophy" class="section">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="text-content philosophy-content">
+                    <div class="philosophy-text">
+                        <h3 class="philosophy-title" data-i18n="philosophyTitle">空间之下皆是人的意志</h3>
+                        <p class="philosophy-subtitle" data-i18n="philosophySubtitle">我们相信，每一个作品的背后，都是一次从无到有的群体意志行动。</p>
+                        <p data-i18n="philosophyText1">
+                            申演文化（Shanghai Live Collective）成立于2016年，立足于上海这座充满交汇与流动的城市，是一个融合戏剧创作、演出统筹与舞美设计于一体的创意型演艺工作平台。
+                        </p>
+                        <p data-i18n="philosophyText2">
+                            我们的核心团队由来自不同背景的演艺专业人士组成，<br>
+                            包括：戏剧导演、编剧、演出策划、舞台美术设计师、灯光设计师、服装造型设计师，以及项目统筹与执行人员。
+                        </p>
+                        <p data-i18n="philosophyText3">
+                            我们横跨剧场与城市、活动与展演、实景演艺与文旅体验的边界，持续提供从创意构建到系统执行的整体解决方案。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 一起被点亮的那一刻 -->
+    <section id="moment" class="section">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="text-content moment-content">
+                    <div class="moment-text">
+                        <h3 class="moment-title" data-i18n="momentTitle">一起被点亮的那一刻</h3>
+                        <p data-i18n="momentText1">
+                            申演始终以行动合作者的姿态介入创作过程，在导演、美术、制作团队之间搭建真实的协同。
+                        </p>
+                        <p data-i18n="momentText2">
+                            我们所追求的每一次落地，不只是精准的呈现，更是技术与美学的共振。
+                        </p>
+                        <p data-i18n="momentText3">
+                            每一个现场都是独立的生命体。<br>
+                            无论剧场、水下、街区，或荒野，只要它能承载表达，它就是舞台。
+                        </p>
+                        <p data-i18n="momentText4">
+                            我们不设边界，持续在戏剧、装置、声音、视觉等多重维度中，探索如何让空间"拥有感受"。
+                        </p>
+                        <p data-i18n="momentText5">
+                            我们相信，好的合作不止于一次交付，而应是一段可成长的关系。<br>
+                            同行，是起点；共创，是方向。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 价值观 -->
+    <section id="values" class="section">
+        <div class="container">
+            <h2 class="values-quote" data-i18n="valuesQuote">创意的发生，从来不是孤立事件。它需要结构，协作与时间的共同参与。</h2>
+            <div class="values-intro">
+                <p data-i18n="valuesIntro1">在申演，我们并不将"创意"与"执行"理解为两个分离阶段。</p>
+                <p data-i18n="valuesIntro2">一次演出的生成，始终是从概念构建到系统落地的同步协同过程。</p>
+                <p data-i18n="valuesIntro3">我们的方法论，源自于对舞台、系统与团队的整体理解，强调创意路径中的共创机制、技术合理性与现场适应性。</p>
+            </div>
+            <div class="methodology-flow">
+                <div class="flow-step">
+                    <h3 class="step-title" data-i18n="conceptTitle">概念构建</h3>
+                    <p class="step-desc" data-i18n="conceptDesc">从导演意图或活动主题出发，围绕空间、叙事与体验，进行结构化提案与思维建模。</p>
+                </div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">
+                    <h3 class="step-title" data-i18n="cocreationTitle">共创阶段</h3>
+                    <p class="step-desc" data-i18n="cocreationDesc">联动导演、舞美、灯光、系统等部门进行多轮协商与快速原型验证，形成"可落地的创意蓝图"。</p>
+                </div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">
+                    <h3 class="step-title" data-i18n="techTitle">技术转译</h3>
+                    <p class="step-desc" data-i18n="techDesc">将创意内容转译为可执行的布景结构、系统配置、演出技术路径，实现艺术与工程的双向匹配。</p>
+                </div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">
+                    <h3 class="step-title" data-i18n="executionTitle">现场实施</h3>
+                    <p class="step-desc" data-i18n="executionDesc">从进场、搭建、联调到合成排练，全面统筹现场流程，确保技术与美术的无缝对接。</p>
+                </div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">
+                    <h3 class="step-title" data-i18n="evaluationTitle">复盘与反馈</h3>
+                    <p class="step-desc" data-i18n="evaluationDesc">每一个项目结束后，我们都会回顾流程、总结技术与协作模型的优化方向，为下一个现场积蓄经验。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 创作 -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="portfolioTitle">创作</h2>
+            <div class="portfolio-grid">
+                <!-- 作品1 -->
+                <div class="portfolio-item" data-index="0">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-image-wrapper">
+                            <img src="ims/0266%202024.09.19%20%E6%B2%89%E6%B5%B8%E5%BC%8F%E4%BA%92%E5%8A%A8%E4%BD%93%E9%AA%8C%E5%89%A7%E3%80%8A%E5%8D%B0%E8%B1%A1%C2%B7%E5%A6%88%E7%A5%96%E3%80%8B%20%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="印象·妈祖" class="portfolio-image active">
+                            <img src="ims/0494%202024.09.19%20%E6%B2%89%E6%B5%B8%E5%BC%8F%E4%BA%92%E5%8A%A8%E4%BD%93%E9%AA%8C%E5%89%A7%E3%80%8A%E5%8D%B0%E8%B1%A1%C2%B7%E5%A6%88%E7%A5%96%E3%80%8B%20%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="印象·妈祖" class="portfolio-image">
+                            <img src="ims/0522%202024.09.19%20%E6%B2%89%E6%B5%B8%E5%BC%8F%E4%BA%92%E5%8A%A8%E4%BD%93%E9%AA%8C%E5%89%A7%E3%80%8A%E5%8D%B0%E8%B1%A1%C2%B7%E5%A6%88%E7%A5%96%E3%80%8B%20%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="印象·妈祖" class="portfolio-image">
+                            <img src="ims/0797%202024.09.19%20%E6%B2%89%E6%B5%B8%E5%BC%8F%E4%BA%92%E5%8A%A8%E4%BD%93%E9%AA%8C%E5%89%A7%E3%80%8A%E5%8D%B0%E8%B1%A1%C2%B7%E5%A6%88%E7%A5%96%E3%80%8B%20%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="印象·妈祖" class="portfolio-image">
+                            <img src="ims/0883%202024.09.19%20%E6%B2%89%E6%B5%B8%E5%BC%8F%E4%BA%92%E5%8A%A8%E4%BD%93%E9%AA%8C%E5%89%A7%E3%80%8A%E5%8D%B0%E8%B1%A1%C2%B7%E5%A6%88%E7%A5%96%E3%80%8B%20%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="印象·妈祖" class="portfolio-image">
+                            <img src="ims/1115%202024.09.19%20%E6%B2%89%E6%B5%B8%E5%BC%8F%E4%BA%92%E5%8A%A8%E4%BD%93%E9%AA%8C%E5%89%A7%E3%80%8A%E5%8D%B0%E8%B1%A1%C2%B7%E5%A6%88%E7%A5%96%E3%80%8B%20%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="印象·妈祖" class="portfolio-image">
+                            <img src="ims/1251%202024.09.19%20%E6%B2%89%E6%B5%B8%E5%BC%8F%E4%BA%92%E5%8A%A8%E4%BD%93%E9%AA%8C%E5%89%A7%E3%80%8A%E5%8D%B0%E8%B1%A1%C2%B7%E5%A6%88%E7%A5%96%E3%80%8B%20%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="印象·妈祖" class="portfolio-image">
+                        </div>
+                        <div class="portfolio-description" data-i18n="project0Desc">沉浸式互动体验剧《印象·妈祖》是一个融合传统与现代的文旅演艺项目。通过创新的舞台设计、多媒体技术和互动体验，展现妈祖文化的深厚内涵，为观众带来独特的沉浸式观演感受。</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-i18n="project0Title">文旅演艺《印象·妈祖》</h3>
+                    </div>
+                </div>
+                <!-- 作品2 -->
+                <div class="portfolio-item" data-index="1">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-image-wrapper">
+                            <img src="ims2/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250423190957.jpg" alt="话剧《董竹君》" class="portfolio-image active">
+                            <img src="ims2/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202504231909582.jpg" alt="话剧《董竹君》" class="portfolio-image">
+                            <img src="ims2/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202504231909594.jpg" alt="话剧《董竹君》" class="portfolio-image">
+                            <img src="ims2/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250423191000.jpg" alt="话剧《董竹君》" class="portfolio-image">
+                            <img src="ims2/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250423191001.jpg" alt="话剧《董竹君》" class="portfolio-image">
+                            <img src="ims2/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202504231910011.jpg" alt="话剧《董竹君》" class="portfolio-image">
+                            <img src="ims2/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202504231910013.jpg" alt="话剧《董竹君》" class="portfolio-image">
+                            <img src="ims2/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202504231910031.jpg" alt="话剧《董竹君》" class="portfolio-image">
+                        </div>
+                        <div class="portfolio-description" data-i18n="project1Desc">话剧《锦江传奇·董竹君》是一部展现传奇女性董竹君人生历程的舞台作品。通过精湛的表演和舞台设计，呈现了这位上海滩传奇女性的坚韧品格和人生智慧。</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-i18n="project1Title">话剧《锦江传奇·董竹君》</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-index="2">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-image-wrapper">
+                            <img src="ims3/16437705-1E42-41D5-9731-D46EA2174EE5.JPG" alt="只有红楼梦·戏剧幻城" class="portfolio-image active">
+                            <img src="ims3/743def5f1a639002277b39696f943401.JPG" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/A47B5460-F50A-4F40-9DDF-CCB082A01810.JPG" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/bb2a98ac019a041f8948c04bb39d21ad.JPG" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/IMG_4535.JPG" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/IMG_4536.JPG" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/IMG_4537.JPG" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/IMG_4538.JPG" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/IMG_4539.JPG" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/IMG_6560.JPG" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/IMG_6571.JPG" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/IMG_6784.JPG" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/IMG_6787.JPG" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/IMG_6859.JPG" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/IMG_6870.JPG" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/IMG_6893.JPG" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/IMG_6896.JPG" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/WechatIMG30.jpg" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/WechatIMG32.jpg" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/WechatIMG33.jpg" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/WechatIMG331.jpg" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/WechatIMG332.jpg" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/WechatIMG333.jpg" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/WechatIMG334.jpg" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/WechatIMG335.jpg" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/WechatIMG336.jpg" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/WechatIMG337.jpg" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/WechatIMG338.jpg" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/WechatIMG339.jpg" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/WechatIMG35.jpg" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/WechatIMG36.jpg" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/WechatIMG37.jpg" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/WechatIMG38.jpg" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                            <img src="ims3/%E9%AB%98%E6%B8%85%E8%88%9E%E5%8F%B0%E6%BC%94%E5%87%BA%E5%9B%BE.png" alt="只有红楼梦·戏剧幻城" class="portfolio-image">
+                        </div>
+                        <div class="portfolio-description" data-i18n="project2Desc">文旅演艺《只有红楼梦·戏剧幻城》是一个大型沉浸式戏剧主题园区项目。通过创新的空间设计和多维度演出体验，将经典文学《红楼梦》以全新的方式呈现，为观众打造一个如梦如幻的戏剧世界。</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-i18n="project2Title">文旅演艺《只有红楼梦·戏剧幻城》</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-index="3">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-image-wrapper">
+                            <img src="ims4/IMG_0509%2820220904-231719%29.JPG" alt="话剧《索玛花盛开的地方》" class="portfolio-image active">
+                            <img src="ims4/IMG_0510%2820220904-231719%29.JPG" alt="话剧《索玛花盛开的地方》" class="portfolio-image">
+                            <img src="ims4/IMG_0511%2820220823-025144%29.JPG" alt="话剧《索玛花盛开的地方》" class="portfolio-image">
+                            <img src="ims4/IMG_0513.JPG" alt="话剧《索玛花盛开的地方》" class="portfolio-image">
+                            <img src="ims4/IMG_0514%2820220904-231719%29.JPG" alt="话剧《索玛花盛开的地方》" class="portfolio-image">
+                            <img src="ims4/IMG_0515%2820220904-231719%29.JPG" alt="话剧《索玛花盛开的地方》" class="portfolio-image">
+                            <img src="ims4/IMG_0516%2820220904-231719%29.JPG" alt="话剧《索玛花盛开的地方》" class="portfolio-image">
+                            <img src="ims4/IMG_0517%2820220823-025144%29.JPG" alt="话剧《索玛花盛开的地方》" class="portfolio-image">
+                        </div>
+                        <div class="portfolio-description" data-i18n="project3Desc">话剧《索玛花盛开的地方》是一部展现彝族文化和生活故事的舞台作品。通过真实感人的剧情和精湛的表演，呈现了彝族人民的生活风貌和情感世界。</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-i18n="project3Title">话剧《索玛花盛开的地方》</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-index="4">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-image-wrapper">
+                            <img src="ims5/%E3%80%8A%E9%81%87%E8%A7%81%E5%96%80%E4%BB%80%E3%80%8B%E5%89%A7%E7%85%A7%EF%BC%88%E6%94%B9%EF%BC%89_01.png" alt="文旅演艺《遇见喀什》" class="portfolio-image active">
+                            <img src="ims5/%E3%80%8A%E9%81%87%E8%A7%81%E5%96%80%E4%BB%80%E3%80%8B%E5%89%A7%E7%85%A7%EF%BC%88%E6%94%B9%EF%BC%89_04.png" alt="文旅演艺《遇见喀什》" class="portfolio-image">
+                            <img src="ims5/%E3%80%8A%E9%81%87%E8%A7%81%E5%96%80%E4%BB%80%E3%80%8B%E5%89%A7%E7%85%A7%EF%BC%88%E6%94%B9%EF%BC%89_05.png" alt="文旅演艺《遇见喀什》" class="portfolio-image">
+                            <img src="ims5/%E3%80%8A%E9%81%87%E8%A7%81%E5%96%80%E4%BB%80%E3%80%8B%E5%89%A7%E7%85%A7%EF%BC%88%E6%94%B9%EF%BC%89_07.png" alt="文旅演艺《遇见喀什》" class="portfolio-image">
+                            <img src="ims5/%E3%80%8A%E9%81%87%E8%A7%81%E5%96%80%E4%BB%80%E3%80%8B%E5%89%A7%E7%85%A7%EF%BC%88%E6%94%B9%EF%BC%89_08.png" alt="文旅演艺《遇见喀什》" class="portfolio-image">
+                            <img src="ims5/%E3%80%8A%E9%81%87%E8%A7%81%E5%96%80%E4%BB%80%E3%80%8B%E5%89%A7%E7%85%A7%EF%BC%88%E6%94%B9%EF%BC%89_10.png" alt="文旅演艺《遇见喀什》" class="portfolio-image">
+                            <img src="ims5/%E3%80%8A%E9%81%87%E8%A7%81%E5%96%80%E4%BB%80%E3%80%8B%E5%89%A7%E7%85%A7%EF%BC%88%E6%94%B9%EF%BC%89_13.png" alt="文旅演艺《遇见喀什》" class="portfolio-image">
+                            <img src="ims5/%E3%80%8A%E9%81%87%E8%A7%81%E5%96%80%E4%BB%80%E3%80%8B%E5%89%A7%E7%85%A7%EF%BC%88%E6%94%B9%EF%BC%89_18.png" alt="文旅演艺《遇见喀什》" class="portfolio-image">
+                            <img src="ims5/%E3%80%8A%E9%81%87%E8%A7%81%E5%96%80%E4%BB%80%E3%80%8B%E5%89%A7%E7%85%A7%EF%BC%88%E6%94%B9%EF%BC%89_20.png" alt="文旅演艺《遇见喀什》" class="portfolio-image">
+                            <img src="ims5/%E3%80%8A%E9%81%87%E8%A7%81%E5%96%80%E4%BB%80%E3%80%8B%E5%89%A7%E7%85%A7%EF%BC%88%E6%94%B9%EF%BC%89_21.png" alt="文旅演艺《遇见喀什》" class="portfolio-image">
+                            <img src="ims5/%E3%80%8A%E9%81%87%E8%A7%81%E5%96%80%E4%BB%80%E3%80%8B%E5%89%A7%E7%85%A7%EF%BC%88%E6%94%B9%EF%BC%89_26.png" alt="文旅演艺《遇见喀什》" class="portfolio-image">
+                            <img src="ims5/%E3%80%8A%E9%81%87%E8%A7%81%E5%96%80%E4%BB%80%E3%80%8B%E5%89%A7%E7%85%A7%EF%BC%88%E6%94%B9%EF%BC%89_35.png" alt="文旅演艺《遇见喀什》" class="portfolio-image">
+                            <img src="ims5/%E3%80%8A%E9%81%87%E8%A7%81%E5%96%80%E4%BB%80%E3%80%8B%E5%89%A7%E7%85%A7%EF%BC%88%E6%94%B9%EF%BC%89_37.png" alt="文旅演艺《遇见喀什》" class="portfolio-image">
+                            <img src="ims5/%E3%80%8A%E9%81%87%E8%A7%81%E5%96%80%E4%BB%80%E3%80%8B%E5%89%A7%E7%85%A7%EF%BC%88%E6%94%B9%EF%BC%89_38.png" alt="文旅演艺《遇见喀什》" class="portfolio-image">
+                            <img src="ims5/%E3%80%8A%E9%81%87%E8%A7%81%E5%96%80%E4%BB%80%E3%80%8B%E5%89%A7%E7%85%A7%EF%BC%88%E6%94%B9%EF%BC%89_39.png" alt="文旅演艺《遇见喀什》" class="portfolio-image">
+                            <img src="ims5/%E3%80%8A%E9%81%87%E8%A7%81%E5%96%80%E4%BB%80%E3%80%8B%E5%89%A7%E7%85%A7%EF%BC%88%E6%94%B9%EF%BC%89_41.png" alt="文旅演艺《遇见喀什》" class="portfolio-image">
+                        </div>
+                        <div class="portfolio-description" data-i18n="project4Desc">文旅演艺《遇见喀什》是一个展现新疆喀什地区独特文化和风土人情的演出项目。通过精彩的舞台呈现和丰富的艺术表现形式，让观众感受喀什的魅力和文化底蕴。</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-i18n="project4Title">文旅演艺《遇见喀什》</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-index="5">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-image-wrapper">
+                            <img src="ims6/0.png" alt="京剧《进京》" class="portfolio-image active">
+                            <img src="ims6/01.png" alt="京剧《进京》" class="portfolio-image">
+                            <img src="ims6/02.png" alt="京剧《进京》" class="portfolio-image">
+                            <img src="ims6/03.png" alt="京剧《进京》" class="portfolio-image">
+                            <img src="ims6/04.png" alt="京剧《进京》" class="portfolio-image">
+                            <img src="ims6/05.png" alt="京剧《进京》" class="portfolio-image">
+                            <img src="ims6/06.png" alt="京剧《进京》" class="portfolio-image">
+                            <img src="ims6/07.png" alt="京剧《进京》" class="portfolio-image">
+                            <img src="ims6/08%E3%80%81.png" alt="京剧《进京》" class="portfolio-image">
+                            <img src="ims6/09.png" alt="京剧《进京》" class="portfolio-image">
+                        </div>
+                        <div class="portfolio-description" data-i18n="project5Desc">京剧《进京》是一部展现传统京剧艺术魅力的现代作品。通过精湛的表演和创新的舞台呈现，将传统京剧与现代审美相结合，为观众带来全新的观演体验。</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-i18n="project5Title">京剧《进京》</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-index="6">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-image-wrapper">
+                            <img src="ims7/00.png" alt="话剧《低智商犯罪》" class="portfolio-image active">
+                            <img src="ims7/01.png" alt="话剧《低智商犯罪》" class="portfolio-image">
+                            <img src="ims7/02.png" alt="话剧《低智商犯罪》" class="portfolio-image">
+                            <img src="ims7/03.png" alt="话剧《低智商犯罪》" class="portfolio-image">
+                            <img src="ims7/04.png" alt="话剧《低智商犯罪》" class="portfolio-image">
+                            <img src="ims7/05.png" alt="话剧《低智商犯罪》" class="portfolio-image">
+                            <img src="ims7/06.png" alt="话剧《低智商犯罪》" class="portfolio-image">
+                            <img src="ims7/07.png" alt="话剧《低智商犯罪》" class="portfolio-image">
+                            <img src="ims7/08.png" alt="话剧《低智商犯罪》" class="portfolio-image">
+                            <img src="ims7/09.png" alt="话剧《低智商犯罪》" class="portfolio-image">
+                            <img src="ims7/10.png" alt="话剧《低智商犯罪》" class="portfolio-image">
+                            <img src="ims7/11.png" alt="话剧《低智商犯罪》" class="portfolio-image">
+                            <img src="ims7/12.png" alt="话剧《低智商犯罪》" class="portfolio-image">
+                            <img src="ims7/13.png" alt="话剧《低智商犯罪》" class="portfolio-image">
+                            <img src="ims7/14.png" alt="话剧《低智商犯罪》" class="portfolio-image">
+                        </div>
+                        <div class="portfolio-description" data-i18n="project6Desc">话剧《低智商犯罪》是一部充满黑色幽默的悬疑喜剧作品。通过巧妙的剧情设计和精彩的表演，展现了一个荒诞而引人深思的故事，为观众带来欢笑与思考。</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-i18n="project6Title">话剧《低智商犯罪》</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-index="7">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-image-wrapper">
+                            <img src="ims8/0254dda0c4c97c5c0aa7406124c98aa.jpg" alt="话剧《隔离2》" class="portfolio-image active">
+                            <img src="ims8/067a40a45ec864738a5267054406b52.jpg" alt="话剧《隔离2》" class="portfolio-image">
+                            <img src="ims8/0f2a844e27cf4548cf9254e71028025.jpg" alt="话剧《隔离2》" class="portfolio-image">
+                            <img src="ims8/1131a75780d035f3297bb7aec989335.jpg" alt="话剧《隔离2》" class="portfolio-image">
+                            <img src="ims8/53207f58badbe547b821acda7fd1cde.jpg" alt="话剧《隔离2》" class="portfolio-image">
+                            <img src="ims8/54b33c7ff1e662b15bf6c123a3e66e0.jpg" alt="话剧《隔离2》" class="portfolio-image">
+                            <img src="ims8/5b22e542c6304d6b52e7472a71e510a.jpg" alt="话剧《隔离2》" class="portfolio-image">
+                            <img src="ims8/601b3e0ad5aa6c0c104695d0e7fad1c.jpg" alt="话剧《隔离2》" class="portfolio-image">
+                            <img src="ims8/7081e8d1b809af0e81f03fc6f0e3207.jpg" alt="话剧《隔离2》" class="portfolio-image">
+                            <img src="ims8/9e19d19234fcc6875383b9da43c20fb.jpg" alt="话剧《隔离2》" class="portfolio-image">
+                            <img src="ims8/a1ad59bc85129ab3754019ccd0693fc.jpg" alt="话剧《隔离2》" class="portfolio-image">
+                            <img src="ims8/a3cee1075af9ee2c562aa3af6437452.jpg" alt="话剧《隔离2》" class="portfolio-image">
+                            <img src="ims8/e6988e1f7a30c93c5ab2f654a79a0e3.jpg" alt="话剧《隔离2》" class="portfolio-image">
+                        </div>
+                        <div class="portfolio-description" data-i18n="project7Desc">话剧《隔离2》是一部反映当代社会生活的现实主义作品。通过细腻的情感刻画和深刻的主题探讨，展现了人们在特殊环境下的生存状态和人性思考。</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-i18n="project7Title">话剧《隔离2》</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-index="8">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-image-wrapper">
+                            <img src="ims9/IMG_0597-2.png" alt="黄梅戏《挑山女人》" class="portfolio-image active">
+                            <img src="ims9/IMG_0619-3.png" alt="黄梅戏《挑山女人》" class="portfolio-image">
+                            <img src="ims9/IMG_0638-4.png" alt="黄梅戏《挑山女人》" class="portfolio-image">
+                            <img src="ims9/IMG_0642-5.png" alt="黄梅戏《挑山女人》" class="portfolio-image">
+                            <img src="ims9/IMG_0654-8.png" alt="黄梅戏《挑山女人》" class="portfolio-image">
+                            <img src="ims9/IMG_0662-10.png" alt="黄梅戏《挑山女人》" class="portfolio-image">
+                            <img src="ims9/IMG_0703-12.png" alt="黄梅戏《挑山女人》" class="portfolio-image">
+                            <img src="ims9/IMG_0714-14.png" alt="黄梅戏《挑山女人》" class="portfolio-image">
+                            <img src="ims9/IMG_0718-15.png" alt="黄梅戏《挑山女人》" class="portfolio-image">
+                            <img src="ims9/IMG_0746-18.png" alt="黄梅戏《挑山女人》" class="portfolio-image">
+                            <img src="ims9/IMG_0749-19.png" alt="黄梅戏《挑山女人》" class="portfolio-image">
+                        </div>
+                        <div class="portfolio-description" data-i18n="project8Desc">黄梅戏《挑山女人》是一部展现女性坚韧品格和母爱的传统戏曲作品。通过优美的唱腔和感人的剧情，讲述了一个普通女性在困境中坚持与奋斗的动人故事。</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-i18n="project8Title">黄梅戏《挑山女人》</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-index="9">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-image-wrapper">
+                            <img src="ims10/013%202025.07.24%E3%80%8A%E7%9B%B4%E4%B8%8A%E4%BA%91%E9%9C%84%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="舞剧《直上云霄》" class="portfolio-image active">
+                            <img src="ims10/038%202025.07.24%E3%80%8A%E7%9B%B4%E4%B8%8A%E4%BA%91%E9%9C%84%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="舞剧《直上云霄》" class="portfolio-image">
+                            <img src="ims10/040%202025.07.24%E3%80%8A%E7%9B%B4%E4%B8%8A%E4%BA%91%E9%9C%84%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="舞剧《直上云霄》" class="portfolio-image">
+                            <img src="ims10/110%202025.07.24%E3%80%8A%E7%9B%B4%E4%B8%8A%E4%BA%91%E9%9C%84%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="舞剧《直上云霄》" class="portfolio-image">
+                            <img src="ims10/112%202025.07.24%E3%80%8A%E7%9B%B4%E4%B8%8A%E4%BA%91%E9%9C%84%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="舞剧《直上云霄》" class="portfolio-image">
+                            <img src="ims10/125%202025.07.24%E3%80%8A%E7%9B%B4%E4%B8%8A%E4%BA%91%E9%9C%84%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="舞剧《直上云霄》" class="portfolio-image">
+                            <img src="ims10/137%202025.07.24%E3%80%8A%E7%9B%B4%E4%B8%8A%E4%BA%91%E9%9C%84%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="舞剧《直上云霄》" class="portfolio-image">
+                            <img src="ims10/147%202025.07.24%E3%80%8A%E7%9B%B4%E4%B8%8A%E4%BA%91%E9%9C%84%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="舞剧《直上云霄》" class="portfolio-image">
+                            <img src="ims10/170%202025.07.24%E3%80%8A%E7%9B%B4%E4%B8%8A%E4%BA%91%E9%9C%84%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="舞剧《直上云霄》" class="portfolio-image">
+                            <img src="ims10/218%202025.07.24%E3%80%8A%E7%9B%B4%E4%B8%8A%E4%BA%91%E9%9C%84%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="舞剧《直上云霄》" class="portfolio-image">
+                            <img src="ims10/231%202025.07.24%E3%80%8A%E7%9B%B4%E4%B8%8A%E4%BA%91%E9%9C%84%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="舞剧《直上云霄》" class="portfolio-image">
+                            <img src="ims10/304%202025.07.24%E3%80%8A%E7%9B%B4%E4%B8%8A%E4%BA%91%E9%9C%84%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="舞剧《直上云霄》" class="portfolio-image">
+                            <img src="ims10/338%202025.07.24%E3%80%8A%E7%9B%B4%E4%B8%8A%E4%BA%91%E9%9C%84%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="舞剧《直上云霄》" class="portfolio-image">
+                            <img src="ims10/401%202025.07.24%E3%80%8A%E7%9B%B4%E4%B8%8A%E4%BA%91%E9%9C%84%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="舞剧《直上云霄》" class="portfolio-image">
+                        </div>
+                        <div class="portfolio-description" data-i18n="project9Desc">舞剧《直上云霄》是一部以航空为主题的现代舞剧。通过充满力量和美感的舞蹈语汇，展现了人类对飞翔的向往和对梦想的追求，为观众带来震撼的视觉体验。</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-i18n="project9Title">舞剧《直上云霄》</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-index="10">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-image-wrapper">
+                            <img src="ims11/378%202025.07.25%E3%80%8A%E8%B5%B7%E8%88%AA%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="文旅演艺《起航》" class="portfolio-image active">
+                            <img src="ims11/482%202025.07.25%E3%80%8A%E8%B5%B7%E8%88%AA%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="文旅演艺《起航》" class="portfolio-image">
+                            <img src="ims11/497%202025.07.25%E3%80%8A%E8%B5%B7%E8%88%AA%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="文旅演艺《起航》" class="portfolio-image">
+                            <img src="ims11/501%202025.07.25%E3%80%8A%E8%B5%B7%E8%88%AA%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="文旅演艺《起航》" class="portfolio-image">
+                            <img src="ims11/506%202025.07.25%E3%80%8A%E8%B5%B7%E8%88%AA%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="文旅演艺《起航》" class="portfolio-image">
+                            <img src="ims11/526%202025.07.25%E3%80%8A%E8%B5%B7%E8%88%AA%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="文旅演艺《起航》" class="portfolio-image">
+                            <img src="ims11/543%202025.07.25%E3%80%8A%E8%B5%B7%E8%88%AA%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="文旅演艺《起航》" class="portfolio-image">
+                            <img src="ims11/550%202025.07.25%E3%80%8A%E8%B5%B7%E8%88%AA%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="文旅演艺《起航》" class="portfolio-image">
+                            <img src="ims11/569%202025.07.25%E3%80%8A%E8%B5%B7%E8%88%AA%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="文旅演艺《起航》" class="portfolio-image">
+                            <img src="ims11/574%202025.07.25%E3%80%8A%E8%B5%B7%E8%88%AA%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="文旅演艺《起航》" class="portfolio-image">
+                            <img src="ims11/637%202025.07.25%E3%80%8A%E8%B5%B7%E8%88%AA%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="文旅演艺《起航》" class="portfolio-image">
+                            <img src="ims11/647%202025.07.25%E3%80%8A%E8%B5%B7%E8%88%AA%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="文旅演艺《起航》" class="portfolio-image">
+                            <img src="ims11/658%202025.07.25%E3%80%8A%E8%B5%B7%E8%88%AA%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="文旅演艺《起航》" class="portfolio-image">
+                            <img src="ims11/709%202025.07.25%E3%80%8A%E8%B5%B7%E8%88%AA%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="文旅演艺《起航》" class="portfolio-image">
+                            <img src="ims11/716%202025.07.25%E3%80%8A%E8%B5%B7%E8%88%AA%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="文旅演艺《起航》" class="portfolio-image">
+                            <img src="ims11/718%202025.07.25%E3%80%8A%E8%B5%B7%E8%88%AA%E3%80%8B%E6%91%84%E5%BD%B1@%E8%88%9E%E8%B9%88%E4%B8%AD%E5%9B%BD-%E5%88%98%E6%B5%B7%E6%A0%8B.jpg" alt="文旅演艺《起航》" class="portfolio-image">
+                        </div>
+                        <div class="portfolio-description" data-i18n="project10Desc">文旅演艺《起航》是一个展现新时代精神风貌的演出项目。通过精彩的舞台呈现和丰富的艺术表现形式，传递积极向上的正能量，为观众带来鼓舞人心的观演体验。</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-i18n="project10Title">文旅演艺《起航》</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-index="11">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-image-wrapper">
+                            <img src="ims12/IMG_7426.JPG" alt="文旅演艺《C秀-亚特兰蒂斯重现》" class="portfolio-image active">
+                            <img src="ims12/IMG_7427.JPG" alt="文旅演艺《C秀-亚特兰蒂斯重现》" class="portfolio-image">
+                            <img src="ims12/IMG_7428.JPG" alt="文旅演艺《C秀-亚特兰蒂斯重现》" class="portfolio-image">
+                            <img src="ims12/IMG_7429.JPG" alt="文旅演艺《C秀-亚特兰蒂斯重现》" class="portfolio-image">
+                            <img src="ims12/IMG_7430.JPG" alt="文旅演艺《C秀-亚特兰蒂斯重现》" class="portfolio-image">
+                            <img src="ims12/IMG_7431.JPG" alt="文旅演艺《C秀-亚特兰蒂斯重现》" class="portfolio-image">
+                            <img src="ims12/IMG_7432.JPG" alt="文旅演艺《C秀-亚特兰蒂斯重现》" class="portfolio-image">
+                            <img src="ims12/IMG_7433.JPG" alt="文旅演艺《C秀-亚特兰蒂斯重现》" class="portfolio-image">
+                            <img src="ims12/WechatIMG758.jpg" alt="文旅演艺《C秀-亚特兰蒂斯重现》" class="portfolio-image">
+                            <img src="ims12/WechatIMG770.jpg" alt="文旅演艺《C秀-亚特兰蒂斯重现》" class="portfolio-image">
+                        </div>
+                        <div class="portfolio-description" data-i18n="project11Desc">文旅演艺《C秀-亚特兰蒂斯重现》是一个融合水秀、杂技、舞蹈等多种艺术形式的沉浸式演出项目。通过创新的舞台设计和震撼的视觉效果，重现了神秘的亚特兰蒂斯文明，为观众带来独特的观演体验。</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-i18n="project11Title">文旅演艺《C秀-亚特兰蒂斯重现》</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-index="12">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-image-wrapper">
+                            <img src="ims13/10.jpg" alt="滑稽戏《万象归春》" class="portfolio-image active">
+                            <img src="ims13/11.jpg" alt="滑稽戏《万象归春》" class="portfolio-image">
+                            <img src="ims13/IMG_3001-%E5%B7%B2%E5%A2%9E%E5%BC%BA-NR.jpg" alt="滑稽戏《万象归春》" class="portfolio-image">
+                            <img src="ims13/IMG_3008-%E5%B7%B2%E5%A2%9E%E5%BC%BA-NR.jpg" alt="滑稽戏《万象归春》" class="portfolio-image">
+                            <img src="ims13/IMG_3017-%E5%B7%B2%E5%A2%9E%E5%BC%BA-NR.jpg" alt="滑稽戏《万象归春》" class="portfolio-image">
+                            <img src="ims13/IMG_3026-%E5%B7%B2%E5%A2%9E%E5%BC%BA-NR.jpg" alt="滑稽戏《万象归春》" class="portfolio-image">
+                            <img src="ims13/IMG_3027-%E5%B7%B2%E5%A2%9E%E5%BC%BA-NR.jpg" alt="滑稽戏《万象归春》" class="portfolio-image">
+                            <img src="ims13/IMG_3031-%E5%B7%B2%E5%A2%9E%E5%BC%BA-NR.jpg" alt="滑稽戏《万象归春》" class="portfolio-image">
+                            <img src="ims13/IMG_3048-%E5%B7%B2%E5%A2%9E%E5%BC%BA-NR.jpg" alt="滑稽戏《万象归春》" class="portfolio-image">
+                            <img src="ims13/IMG_3053-%E5%B7%B2%E5%A2%9E%E5%BC%BA-NR.jpg" alt="滑稽戏《万象归春》" class="portfolio-image">
+                            <img src="ims13/IMG_3054-%E5%B7%B2%E5%A2%9E%E5%BC%BA-NR.jpg" alt="滑稽戏《万象归春》" class="portfolio-image">
+                            <img src="ims13/IMG_3061-%E5%B7%B2%E5%A2%9E%E5%BC%BA-NR.jpg" alt="滑稽戏《万象归春》" class="portfolio-image">
+                            <img src="ims13/IMG_3069-%E5%B7%B2%E5%A2%9E%E5%BC%BA-NR.jpg" alt="滑稽戏《万象归春》" class="portfolio-image">
+                            <img src="ims13/IMG_3081-%E5%B7%B2%E5%A2%9E%E5%BC%BA-NR.jpg" alt="滑稽戏《万象归春》" class="portfolio-image">
+                            <img src="ims13/IMG_3090-%E5%B7%B2%E5%A2%9E%E5%BC%BA-NR.jpg" alt="滑稽戏《万象归春》" class="portfolio-image">
+                            <img src="ims13/IMG_3091-%E5%B7%B2%E5%A2%9E%E5%BC%BA-NR.jpg" alt="滑稽戏《万象归春》" class="portfolio-image">
+                            <img src="ims13/IMG_3092-%E5%B7%B2%E5%A2%9E%E5%BC%BA-NR.jpg" alt="滑稽戏《万象归春》" class="portfolio-image">
+                        </div>
+                        <div class="portfolio-description" data-i18n="project12Desc">滑稽戏《万象归春》是一部充满欢乐与温情的传统戏曲作品。通过幽默诙谐的表演和生动有趣的剧情，展现生活中的点滴美好，为观众带来轻松愉快的观演体验。</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-i18n="project12Title">滑稽戏《万象归春》</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-index="13">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-image-wrapper">
+                            <img src="ims14/%E3%80%8A%E9%9C%9E%E5%A7%91%EF%BC%8C%E9%9C%9E%E5%A7%91%E3%80%8B%E5%89%A7%E7%85%A7%202023.7.16_02.png" alt="越剧《霞姑，霞姑》" class="portfolio-image active">
+                            <img src="ims14/%E3%80%8A%E9%9C%9E%E5%A7%91%EF%BC%8C%E9%9C%9E%E5%A7%91%E3%80%8B%E5%89%A7%E7%85%A7%202023.7.16_03.png" alt="越剧《霞姑，霞姑》" class="portfolio-image">
+                            <img src="ims14/%E3%80%8A%E9%9C%9E%E5%A7%91%EF%BC%8C%E9%9C%9E%E5%A7%91%E3%80%8B%E5%89%A7%E7%85%A7%202023.7.16_07.png" alt="越剧《霞姑，霞姑》" class="portfolio-image">
+                            <img src="ims14/%E3%80%8A%E9%9C%9E%E5%A7%91%EF%BC%8C%E9%9C%9E%E5%A7%91%E3%80%8B%E5%89%A7%E7%85%A7%202023.7.16_08.png" alt="越剧《霞姑，霞姑》" class="portfolio-image">
+                            <img src="ims14/%E3%80%8A%E9%9C%9E%E5%A7%91%EF%BC%8C%E9%9C%9E%E5%A7%91%E3%80%8B%E5%89%A7%E7%85%A7%202023.7.16_11.png" alt="越剧《霞姑，霞姑》" class="portfolio-image">
+                            <img src="ims14/%E3%80%8A%E9%9C%9E%E5%A7%91%EF%BC%8C%E9%9C%9E%E5%A7%91%E3%80%8B%E5%89%A7%E7%85%A7%202023.7.16_26.png" alt="越剧《霞姑，霞姑》" class="portfolio-image">
+                            <img src="ims14/%E3%80%8A%E9%9C%9E%E5%A7%91%EF%BC%8C%E9%9C%9E%E5%A7%91%E3%80%8B%E5%89%A7%E7%85%A7%202023.7.16_27.png" alt="越剧《霞姑，霞姑》" class="portfolio-image">
+                            <img src="ims14/%E3%80%8A%E9%9C%9E%E5%A7%91%EF%BC%8C%E9%9C%9E%E5%A7%91%E3%80%8B%E5%89%A7%E7%85%A7%202023.7.16_33.png" alt="越剧《霞姑，霞姑》" class="portfolio-image">
+                            <img src="ims14/%E3%80%8A%E9%9C%9E%E5%A7%91%EF%BC%8C%E9%9C%9E%E5%A7%91%E3%80%8B%E5%89%A7%E7%85%A7%202023.7.16_36.png" alt="越剧《霞姑，霞姑》" class="portfolio-image">
+                            <img src="ims14/%E3%80%8A%E9%9C%9E%E5%A7%91%EF%BC%8C%E9%9C%9E%E5%A7%91%E3%80%8B%E5%89%A7%E7%85%A7%202023.7.16_40.png" alt="越剧《霞姑，霞姑》" class="portfolio-image">
+                            <img src="ims14/%E3%80%8A%E9%9C%9E%E5%A7%91%EF%BC%8C%E9%9C%9E%E5%A7%91%E3%80%8B%E5%89%A7%E7%85%A7%202023.7.16_44.png" alt="越剧《霞姑，霞姑》" class="portfolio-image">
+                        </div>
+                        <div class="portfolio-description" data-i18n="project13Desc">越剧《霞姑，霞姑》是一部展现女性坚韧品格和情感世界的传统戏曲作品。通过优美的唱腔和细腻的表演，讲述了一个感人至深的故事，为观众带来深刻的情感共鸣。</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-i18n="project13Title">越剧《霞姑，霞姑》</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-index="14">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-image-wrapper">
+                            <img src="ims15/3d1a1d2d6b6ce42bbb0fbe603cf9c16.png" alt="沪剧《罗汉钱》" class="portfolio-image active">
+                            <img src="ims15/434059a9ba554be1e0c52fbb996ea64.jpg" alt="沪剧《罗汉钱》" class="portfolio-image">
+                            <img src="ims15/633b9303e7b27b0b70cef4493573734.jpg" alt="沪剧《罗汉钱》" class="portfolio-image">
+                            <img src="ims15/8427d241a94507fe9f16978b0810556.jpg" alt="沪剧《罗汉钱》" class="portfolio-image">
+                            <img src="ims15/b5658e5a3866576c0ea0967420e0c51.png" alt="沪剧《罗汉钱》" class="portfolio-image">
+                            <img src="ims15/b830f991f29e544b6f35de5eac532ed.jpg" alt="沪剧《罗汉钱》" class="portfolio-image">
+                            <img src="ims15/c3f608dbec8cdc9fbf3a3b7a85a1e43.png" alt="沪剧《罗汉钱》" class="portfolio-image">
+                            <img src="ims15/c6eb7ce715548a1a32056fcaef2bdee.png" alt="沪剧《罗汉钱》" class="portfolio-image">
+                            <img src="ims15/cab9960efa83ea7e12ab42a01a858dd.png" alt="沪剧《罗汉钱》" class="portfolio-image">
+                            <img src="ims15/cf6098faa34049f3f62fcb7e45ebec0.jpg" alt="沪剧《罗汉钱》" class="portfolio-image">
+                            <img src="ims15/f81d97161750e8b176201ed92f0510d.jpg" alt="沪剧《罗汉钱》" class="portfolio-image">
+                        </div>
+                        <div class="portfolio-description" data-i18n="project14Desc">沪剧《罗汉钱》是一部经典的传统戏曲作品。通过生动的剧情和精彩的表演，展现了深刻的人性思考和社会意义，为观众带来丰富的艺术享受和思想启迪。</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-i18n="project14Title">沪剧《罗汉钱》</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-index="15">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-image-wrapper">
+                            <img src="ims16/CS0A7994.jpg" alt="话剧《通医魂》" class="portfolio-image active">
+                            <img src="ims16/CS0A8110.jpg" alt="话剧《通医魂》" class="portfolio-image">
+                            <img src="ims16/CS0A8266.jpg" alt="话剧《通医魂》" class="portfolio-image">
+                            <img src="ims16/CS0A8405.jpg" alt="话剧《通医魂》" class="portfolio-image">
+                            <img src="ims16/CS0A8495.jpg" alt="话剧《通医魂》" class="portfolio-image">
+                            <img src="ims16/CS0A8672.jpg" alt="话剧《通医魂》" class="portfolio-image">
+                            <img src="ims16/CS0A8730.jpg" alt="话剧《通医魂》" class="portfolio-image">
+                            <img src="ims16/CS0A8936.jpg" alt="话剧《通医魂》" class="portfolio-image">
+                            <img src="ims16/CS0A8980.jpg" alt="话剧《通医魂》" class="portfolio-image">
+                            <img src="ims16/CS0A9158.jpg" alt="话剧《通医魂》" class="portfolio-image">
+                        </div>
+                        <div class="portfolio-description" data-i18n="project15Desc">话剧《通医魂》是一部展现医者仁心和职业精神的现实主义作品。通过深刻的人物刻画和感人的剧情，展现了医务工作者在救死扶伤中的坚守与奉献，为观众带来深刻的思考和感动。</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 data-i18n="project15Title">话剧《通医魂》</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 艺术家 -->
+    <section id="team" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="teamTitle">艺术家</h2>
+            <div class="team-grid">
+                <div class="team-member" data-member="tongweilie">
+                    <div class="member-image">
+                        <img src="People%20ims/%E7%AB%A5%E4%B8%BA%E5%88%97.jpg" alt="童为列" class="member-photo member-photo-tong">
+                        <div class="hover-hint" data-i18n="hoverHint">点击查看简介</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 data-i18n="member0Name">童为列</h3>
+                        <p data-i18n="member0Title">申演文化创始人｜舞美总设计</p>
+                    </div>
+                </div>
+                <div class="team-member" data-member="heminghui">
+                    <div class="member-image">
+                        <img src="People%20ims/WechatIMG5518.jpg" alt="何鸣晖" class="member-photo member-photo-heminghui">
+                        <div class="hover-hint" data-i18n="hoverHint">点击查看简介</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 data-i18n="member1Name">何鸣晖</h3>
+                        <p data-i18n="member1Title">申演文化联合创始人｜编剧｜导演</p>
+                    </div>
+                </div>
+                <div class="team-member" data-member="wangbeijun">
+                    <div class="member-image">
+                        <img src="People%20ims/WechatIMG25209.jpg" alt="王贝珺" class="member-photo member-photo-wang">
+                        <div class="hover-hint" data-i18n="hoverHint">点击查看简介</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 data-i18n="member2Name">王贝珺</h3>
+                        <p data-i18n="member2Title">申演文化联合创始人｜灯光总设计</p>
+                    </div>
+                </div>
+                <div class="team-member" data-member="fanxiaoyan">
+                    <div class="member-image">
+                        <img src="People%20ims/%E6%A8%8A%E6%99%93%E7%87%95.png" alt="樊晓燕" class="member-photo member-photo-fan">
+                        <div class="hover-hint" data-i18n="hoverHint">点击查看简介</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 data-i18n="member3Name">樊晓燕</h3>
+                        <p data-i18n="member3Title">申演文化联合创始人｜演出制作人</p>
+                    </div>
+                </div>
+                <div class="team-member" data-member="caobingliang">
+                    <div class="member-image">
+                        <img src="People%20ims/3f306ba998da68eaa8ba362354bb6044.jpg" alt="曹炳亮" class="member-photo member-photo-caobingliang">
+                        <div class="hover-hint" data-i18n="hoverHint">点击查看简介</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 data-i18n="member4Name">曹炳亮</h3>
+                        <p data-i18n="member4Title">灯光设计总监｜申演文化核心创作成员</p>
+                    </div>
+                </div>
+                <div class="team-member" data-member="wukai">
+                    <div class="member-image">
+                        <img src="People%20ims/%E5%90%B4%E5%87%AF.png" alt="吴凯" class="member-photo member-photo-wukai">
+                        <div class="hover-hint" data-i18n="hoverHint">点击查看简介</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 data-i18n="member5Name">吴凯</h3>
+                        <p data-i18n="member5Title">舞美设计师｜申演文化设计总监</p>
+                    </div>
+                </div>
+                <div class="team-member" data-member="caizerui">
+                    <div class="member-image">
+                        <img src="People%20ims/1765726293735.png" alt="蔡泽瑞" class="member-photo member-photo-caizerui">
+                        <div class="hover-hint" data-i18n="hoverHint">点击查看简介</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 data-i18n="member6Name">蔡泽瑞</h3>
+                        <p data-i18n="member6Title">舞美深化设计总监｜申演文化核心设计成员</p>
+                    </div>
+                </div>
+                <div class="team-member" data-member="wangjiajun">
+                    <div class="member-image">
+                        <img src="People%20ims/1765726591987.png" alt="王家钧" class="member-photo member-photo-wangjiajun">
+                        <div class="hover-hint" data-i18n="hoverHint">点击查看简介</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 data-i18n="member7Name">王家钧</h3>
+                        <p data-i18n="member7Title">资深舞美设计师｜申演文化核心设计成员</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 合作艺术家 -->
+    <section id="collaborators" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="collaboratorsTitle">创作联合体</h2>
+            <div class="collaborators-scroll-container">
+                <div class="collaborators-scroll-wrapper">
+                    <div class="collaborators-track">
+                        <!-- 艺术家照片将通过JavaScript动态加载 -->
+                    </div>
+                </div>
+            </div>
+            <div class="collaborators-scrollbar-container">
+                <div class="collaborators-scrollbar-track">
+                    <div class="collaborators-scrollbar-thumb"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 视觉 -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="galleryTitle">视觉</h2>
+            <div class="visuals-carousel">
+                <button class="carousel-arrow carousel-prev">‹</button>
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <!-- 图片将通过JavaScript动态加载 -->
+                    </div>
+                </div>
+                <button class="carousel-arrow carousel-next">›</button>
+                <div class="carousel-indicator">
+                    <span class="current-slide">1</span> / <span class="total-slides">1</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contactTitle">联系方式</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3 data-i18n="contactEmail">邮箱</h3>
+                        <a href="mailto:shanghailivecollective@sh-slc.com" class="contact-link">shanghailivecollective@sh-slc.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3 data-i18n="contactPhone">电话</h3>
+                        <a href="tel:+862162242730" class="contact-link contact-phone" data-phone="+862162242730">+8621 62242730</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3 data-i18n="contactAddress">地址</h3>
+                        <a href="#" class="contact-link contact-address" data-i18n="contactAddressText" data-address="中国上海静安区永和路456号A316室">中国上海静安区永和路456号A316室</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p data-i18n="footer">&copy; 2025 申演文化（上海）有限公司. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <!-- 艺术家简介模态框 -->
+    <div id="team-modal" class="team-modal">
+        <div class="team-modal-overlay"></div>
+        <div class="team-modal-content">
+            <button class="team-modal-close">&times;</button>
+            <div class="team-modal-body">
+                <div class="team-modal-image">
+                    <img src="" alt="" class="team-modal-photo">
+                </div>
+                <div class="team-modal-text">
+                    <h2 class="team-modal-name"></h2>
+                    <p class="team-modal-title"></p>
+                    <div class="team-modal-bio"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 合作艺术家模态框 -->
+    <div id="collaborator-modal" class="collaborator-modal">
+        <div class="collaborator-modal-overlay"></div>
+        <div class="collaborator-modal-content">
+            <button class="collaborator-modal-close">&times;</button>
+            <div class="collaborator-modal-body">
+                <div class="collaborator-modal-image">
+                    <img src="" alt="" class="collaborator-modal-photo">
+                </div>
+                <div class="collaborator-modal-text">
+                    <h2 class="collaborator-modal-name"></h2>
+                    <p class="collaborator-modal-role"></p>
+                    <div class="collaborator-modal-bio"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 项目详情模态框 -->
+    <div id="portfolio-modal" class="portfolio-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-image-container">
+                <button class="modal-nav modal-nav-prev">‹</button>
+                <div class="modal-image-wrapper">
+                    <img src="" alt="" class="modal-image">
+                </div>
+                <button class="modal-nav modal-nav-next">›</button>
+            </div>
+            <div class="modal-info">
+                <h3 class="modal-title"></h3>
+                <p class="modal-description"></p>
+                <div class="modal-image-indicator">
+                    <span class="current-image">1</span> / <span class="total-images">1</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
